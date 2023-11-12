@@ -82,3 +82,44 @@ const areaOfTriangle = function (s1, s2, s3) {
 };
 console.log(areaOfTriangle(5, 6, 7));
 */
+// Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.
+
+/*
+let year = 2000;
+if (year % 4 === 0) {
+  console.log("it is a leap year");
+} else {
+  console.log("it is not a leap year");
+}
+*/
+
+// Write a JavaScript program where the program takes a random integer between 1 and 10, and the user is then prompted to input a guess number. The program displays a message "Good Work" if the input matches the guess number otherwise "Not matched".
+
+/*
+let secretNumber = Math.trunc(Number(Math.random() * 10 + 1));
+let userGuess = Number(prompt("Guess the number between 1 to 10"));
+console.log(secretNumber);
+
+const displayMessage = userGuess === secretNumber ? "Good work" : "Not Matched";
+console.log(displayMessage);
+*/
+
+// Write a JavaScript program to calculate multiplication  of two numbers (input from the user).
+/*
+let userInput1 = Number(prompt("Enter the first Number"));
+let userInput2 = Number(prompt("Enter the second Number"));
+let multiplication = userInput1 * userInput2;
+console.log(`The result is ${multiplication}`);
+*/
+
+// function calcAge(birthYear) {
+//   console.log(2037 - birthYear);
+//   console.log(this.birthYear);
+// }
+// calcAge(1996);
+
+const Arrow = (birthYear) => {
+  console.log(2037 - birthYear);
+  console.log(this);
+};
+Arrow(1996);
