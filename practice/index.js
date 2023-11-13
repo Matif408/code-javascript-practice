@@ -105,21 +105,8 @@ console.log(displayMessage);
 */
 
 // Write a JavaScript program to calculate multiplication  of two numbers (input from the user).
-/*
-let userInput1 = Number(prompt("Enter the first Number"));
-let userInput2 = Number(prompt("Enter the second Number"));
+
+let userInput1 = Number(prompt("Enter the a first  Number"));
+let userInput2 = Number(prompt("Enter the a second Number"));
 let multiplication = userInput1 * userInput2;
 console.log(`The result is ${multiplication}`);
-*/
-
-// function calcAge(birthYear) {
-//   console.log(2037 - birthYear);
-//   console.log(this.birthYear);
-// }
-// calcAge(1996);
-
-const Arrow = (birthYear) => {
-  console.log(2037 - birthYear);
-  console.log(this);
-};
-Arrow(1996);
